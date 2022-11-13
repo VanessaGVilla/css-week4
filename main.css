@@ -87,7 +87,18 @@ body {
 	margin bottom: 1em;
 	}
 
-clear: left;
+footer {
+  clear: left;
     position: fixed;
     bottom: 5px;
+}
 
+aside {
+     
+  width: 10%;
+ float: right;
+} 
+
+#news-update-photo {
+  margin-left: 1em;
+}
