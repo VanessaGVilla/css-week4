@@ -87,3 +87,7 @@ body {
 	margin bottom: 1em;
 	}
 
+clear: left;
+    position: fixed;
+    bottom: 5px;
+
