@@ -16,20 +16,29 @@ body {
    text-shadow: 1px 1px #f6e0ea;
    text-align: center;
    color: rgb(251, 77, 147);
-   padding: 3em;
+   padding: 1em;
    margin: 1em;
  }
 
  h2 {
+  margin: 1em;
   font-family: 'Ultra', serif;
-  font-size: 16px;
+  font-size: 20px;
   background-color: rgb(255, 213, 223);
   color: rgb(67, 44, 44)
+  
   }
+
+  aside {
+    background-color: rgb(67, 29, 29);
+    color: white;
+    margin-left: 0.5em;
+    width: 15%;
+   float: left;
+  } 
 
  #product-intro {
 	background-color: rgb(67, 29, 29);
-	border: 2px solid rgb(254, 245, 245);
 	color: rgb(253, 250, 252);
 	padding: 1em;
   margin: 1em;
@@ -74,31 +83,51 @@ body {
 
 #about-photo {
   border-color: white;
-  margin: 15px;
-	width: 600px;
+  float: left;    
+ margin: 0 15px 0 0;
 }
 
 #section-about {
   background-color: rgb(254, 145, 189);
   color: white;
   font-size: 16px;
-  padding: 1em;
-	margin-left: 1em;
-	margin bottom: 1em;
+  width: 100%;
 	}
 
+  #Custom-cone {
+    float: left;
+    border-radius: 15px 50px 30px 5px;
+  }
+
 footer {
-  clear: left;
+    clear: left;
     position: fixed;
     bottom: 5px;
 }
 
 aside {
      
-  width: 10%;
- float: right;
-} 
+  width: 20%;
+  float: left;    
+  margin: 1em;
+  padding: 1em;
+ }
 
-#news-update-photo {
-  margin-left: 1em;
+ .mid-container {
+  position: relative;
+  float: left;
+  background-color: rgb(66, 228, 228);
+  color: white;
+   margin: 1em;
+ }
+ 
+
+#copyright {
+	clear: left;
+   font-size: 80%;
+   color: rgb(59, 28, 28);
+}
+
+.clear {
+	clear: both;
 }
