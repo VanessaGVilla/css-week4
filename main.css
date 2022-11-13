@@ -1,6 +1,89 @@
 body {
   font-family: 'Pridi', serif;
   font-size: 16px;
-  font-color: brown;
+  color: rgba(93, 36, 36, 0.358);
 }
+
+ header {
+  text-align: center;
+  color: rgba(255, 248, 248, 0.885);
+ }
+
+ h1 {
+   background-color: rgb(67, 29, 29);
+   font-family: 'Ultra', serif;
+   font-size: 25px;
+   text-shadow: 1px 1px #f6e0ea;
+   text-align: center;
+   color: rgb(251, 77, 147);
+   padding: 3em;
+   margin: 1em;
+ }
+
+ h2 {
+  font-family: 'Ultra', serif;
+  font-size: 16px;
+  background-color: rgb(255, 213, 223);
+  color: rgb(67, 44, 44)
+  }
+
+ #product-intro {
+	background-color: rgb(67, 29, 29);
+	border: 2px solid rgb(254, 245, 245);
+	color: rgb(253, 250, 252);
+	padding: 1em;
+  margin: 1em;
+ }
+
+ * {
+  box-sizing: border-box;
+}
+
+.topnav {
+  position: relative;
+  background-color: rgb(219, 106, 167);
+  overflow: hidden;
+}
+
+
+.topnav {
+  text-align: center;
+  color: antiquewhite;
+  overflow: hidden;
+  background-color: rgb(255, 143, 178);
+}
+
+.topnav a {
+
+  color: rgba(96, 48, 48, 0.626);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: rgba(118, 57, 57, 0.293);
+  color: rgb(245, 25, 135);
+}
+
+.topnav a.active {
+  background-color: #9a410675;
+  color: white;
+}
+
+#about-photo {
+  border-color: white;
+  margin: 15px;
+	width: 600px;
+}
+
+#section-about {
+  background-color: rgb(254, 145, 189);
+  color: white;
+  font-size: 16px;
+  padding: 1em;
+	margin-left: 1em;
+	margin bottom: 1em;
+	}
 
