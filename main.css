@@ -13,7 +13,7 @@ body {
    background-color: rgb(67, 29, 29);
    font-family: 'Ultra', serif;
    font-size: 30px;
-   text-shadow: 1px 1px #ff5ba5;
+   text-shadow: .5px .5px #f23f8f;
    text-align: center;
    color: rgb(251, 196, 218);
    border: 6px solid rgb(255, 206, 229) ;
@@ -21,7 +21,7 @@ body {
    margin: 1em;
  }
 
- h2 {
+  h2 {
   margin: 1em;
   font-family: 'Ultra', serif;
   font-size: 20px;
